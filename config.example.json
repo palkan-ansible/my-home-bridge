@@ -1,0 +1,30 @@
+{
+  "bridge": {
+      "name": "Homebridge B3BA",
+      "username": "0E:9C:46:42:B3:BA",
+      "port": 51524,
+      "pin": "936-14-388",
+      "advertiser": "bonjour-hap"
+  },
+  "accessories": [],
+  "platforms": [
+      {
+          "name": "Config",
+          "port": 8581,
+          "platform": "config"
+      },
+      {
+          "name": "G-On Alice",
+          "username": "palkan",
+          "password": "fevsih-vurGe3-kebmym",
+          "pin": "936-14-388",
+          "platform": "G-On Alice"
+      },
+      {
+          "name": "Govee",
+          "username": "dementiev.vm@gmail.com",
+          "password": "hoxsU6-monniq-zuwtyr",
+          "platform": "Govee"
+      }
+  ]
+}

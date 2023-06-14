@@ -1,0 +1,17 @@
+{
+  "name": "palkan-homebridge",
+  "version": "1.0.0",
+  "description": "Custom Homebridge setup",
+  "main": "index.js",
+  "dependencies": {
+    "homebridge": "1.6.1",
+    "homebridge-config-ui-x": "^4.38.0",
+    "homebridge-govee": "^9.0.0",
+    "homebridge-g-on-alice": "file:./vendor/homebridge-g-on-alice"
+  },
+  "scripts": {
+    "server": "homebridge -U ./"
+  },
+  "author": "",
+  "license": "MIT"
+}

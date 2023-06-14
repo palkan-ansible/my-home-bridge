@@ -1,0 +1,9 @@
+.DS_Store
+accessories/
+backups/
+bwp91_cache/
+node_modules/
+persist/
+.uix-secrets
+config.json
+tmp/
