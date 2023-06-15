@@ -1,0 +1,13 @@
+[Unit]
+Description=Homebridge
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/homebridge
+ExecStart=/usr/bin/npm run server
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
